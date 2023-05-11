@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login & Signup Form | CodingNepal</title>
+    <link rel="stylesheet" href="../CSS/signUp.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</script>
+</head>
+  <body>
+    <div class="wrapper"> 
+      <div class="title-text">
+        <div class="title login">Login Form</div>
+        <div class="title Register"> Register Form</div>
+      </div>
+      <div class="form-container">
+        <div class="slide-controls">
+          <input class="r" type="radio" name="slide" id="login" checked>
+          <input class="r" type="radio" name="slide" id="Register">
+          <label for="login" class="slide login">Login</label>
+          <label for="Register" class="slide Register">Register</label>
+          <div class="slider-tab"></div>
+        </div>
+        <div class="form-inner">
+          <form action="#" class="login">
+            <br>
+            <div class="field">
+              <input id="user" type="text" placeholder="user name" >
+              <i class="fa fa-close" id="false" ></i>
+              <i class="fa fa-check " id="true"></i>
+            </div>
+            <div class="field">
+              <input id="pass" type="password" placeholder="Password" >
+              <i class="fa fa-close" id="false1" ></i>
+              <i class="fa fa-eye-slash" id="eye"></i>
+            </div>
+            <div class="pass-link"><a href="#">Forgot password?</a></div>
+            <br>
+            <br>
+            <div id="btn" class="field btn">
+              <div  class="btn-layer"></div>
+              <input  type="submit" value="Login">
+            </div>
+            <div class="signup-link">Not a member? <a href="">Signup now</a></div>
+          </form>
+
+
+          <form action="#" class="Register">
+
+            <div class="field">
+              <input id="first" type="text" placeholder="First Name" name="first">
+              <i class="fa fa-close" id="false" ></i>
+              <i class="fa fa-check " id="true"></i>
+            </div>
+            <div class="field">
+              <input id="second" type="text" placeholder="Last Name" >
+              <i class="fa fa-close" id="false" ></i>
+              <i class="fa fa-check " id="true"></i>
+            </div>
+            <div class="field">
+              <input id="address" type="text" placeholder="Address" >
+              <i class="fa fa-close" id="false" ></i>
+              <i class="fa fa-check " id="true"></i>
+            </div>
+            <div class="field">
+                <input id="_email" type="text" placeholder="Email"  name="_email">
+                <i class="fa fa-close" id="false" ></i>
+                <i class="fa fa-check " id="true"></i>
+              </div>
+              <div class="field">
+                <input id="age" type="text" placeholder="Age"name="age">
+                <i class="fa fa-close" id="false" ></i>
+                <i class="fa fa-check " id="true"></i>
+              </div>
+                <div id="radio">
+                  <input type="radio" id="security" name="position"  value="12">
+                  <label for="security">security</label>
+                  <input type="radio" id="employee" name="position" value="female" >
+                  <label for="employee">employee</label>
+                </div>
+
+             <div id="btnS"  class="field btn">
+              <div class="btn-layer"></div>
+              <input  type="submit" value="Signup">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="../JS/email.min.js"></script>    
+    <script>(function(){emailjs.init("KJ2X3kleqdDw7JiMF");})();</script>
+    <script src="../JQ/jquery-3.1.1.js"></script>
+    <script src="../JS/register.js" ></script>
+    <script src="../JS/login.js"></script>
+    <script src="../JS/signUp.js"></script>
+      </body>
+</html>

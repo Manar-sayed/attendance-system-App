@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/bootstrap.css" rel="stylesheet" />
+    <link href="../CSS/employeeReports.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/regular.min.css">
+    <title>Admin Page</title>
+</head>
+<body>
+   <div class=" py-4 my-4 mx-5  text-start  h1 text-info" >Welcome..!  <div class="text-primary fst-italic fs-2 mx-5"></div> </div>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <input type="button" class=" btn btn-secondary text-light " value="All Requests " id="display" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+             <input type="button" class=" btn btn-secondary text-light " value="Full Daily Report" id="report" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <input type="button" class="btn btn-secondary text-light" value="Late Report" id="late" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+             <input type="button" class=" btn btn-secondary text-light" value="Excuse Report" id="excuce" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <input type="button" class=" btn btn-secondary text-light" value="All Employee" id="allEmployee" />
+          </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <input type="button" class=" btn btn-secondary text-light" value="Confirm Employee " id="Comfirm" />
+            </a>
+          </li>
+          <!-- <input id="inputName" type="text" value="search" class="border border-info my-3 mx-2 text-secondary rounded-3" />  -->
+      </ul>
+  <div class="mx-3" id="tableDiv">
+    <table id="example" class="hover" style="width:100%">
+    <thead id="thead"></thead>
+    <tbody id="tbody">
+
+    </tbody>
+</table>
+</div>
+
+
+  <table id="Emp"  style="width:100%">
+    <thead id="Empthead">
+
+    </thead>
+    <tbody id="tbodyEmp">
+
+    </tbody>
+</table>
+
+
+
+  <table id="late" class="hover" style="width:100%">
+    <thead id="latehead">
+
+    </thead>
+    <tbody id="tbodylate">
+
+    </tbody>
+</table>
+
+
+          
+
+<script src="../JS/email.min.js"></script>    
+<script>(function(){emailjs.init("KJ2X3kleqdDw7JiMF");})();</script>
+<script src="../JQ/jquery-3.1.1.js"></script>
+<script src="../JS/adminPage.js"></script>
+<script type="text/javascript"  src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+ 
+</body>
+</html>

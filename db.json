@@ -1,0 +1,140 @@
+{
+  "Employees": [
+    {
+      "firstName": "maram",
+      "lastName": "sayed",
+      "address": "aga",
+      "email": "manarsayed2070@gmail.com",
+      "age": "27",
+      "userName": "maraA!OW3MN",
+      "password": "CbGs_fqfGYBNO",
+      "id": "maraA!OW3MN"
+    },
+    {
+      "firstName": "ahmed",
+      "lastName": "taha",
+      "address": "mahala",
+      "email": "ahmedtaha757@gmail.com",
+      "age": "23",
+      "userName": "ahmeL-1A_Q3",
+      "password": "DHuJmEUEOSoVI",
+      "id": "ahmeL-1A_Q3"
+    },
+    {
+      "firstName": "alyaa",
+      "lastName": "alaa",
+      "address": "mans",
+      "email": "manarsayed5070@gmail.com",
+      "age": "33",
+      "userName": "alyaN6NZ8XC",
+      "password": "kk9pNKTygmrTC",
+      "id": "alyaN6NZ8XC"
+    },
+    {
+      "firstName": "aishaa",
+      "lastName": "mahmoud",
+      "address": "aga",
+      "email": "manarsayed6000@gmail.com",
+      "age": "27",
+      "userName": "aishGS5NXC9",
+      "password": "vmB-NKFm4i648",
+      "id": "aishGS5NXC9"
+    },
+    {
+      "firstName": "ahmed",
+      "lastName": "taha",
+      "address": "mahala",
+      "email": "ahmedtaha777@gmail.com",
+      "age": "23",
+      "userName": "ahmeDMBH4BJ",
+      "password": "g1NKJRXUDWYP1",
+      "id": "ahmeDMBH4BJ"
+    },
+    {
+      "firstName": "menna",
+      "lastName": "alaa",
+      "address": "metghanr",
+      "email": "boodybeeh2070@gmail.com",
+      "age": "26",
+      "userName": "mennGCMH3ID",
+      "password": "vInu0W7JSOr8e",
+      "id": "mennGCMH3ID"
+    }
+  ],
+  "pending": [
+    {
+      "firstName": "body",
+      "lastName": "aly",
+      "address": "aga",
+      "email": "boodybeeh2070@gmail.com",
+      "age": "36",
+      "userName": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "firstName": "aly",
+      "lastName": "ahmed",
+      "address": "aga",
+      "email": "manarsayed2070@gmail.com",
+      "age": "13",
+      "userName": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "firstName": "aly",
+      "lastName": "aly",
+      "address": "sancor",
+      "email": "manarsayed20702070@gmail.com",
+      "age": "26",
+      "userName": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "firstName": "zinab",
+      "lastName": "omar",
+      "address": "aga",
+      "email": "zinabomar2070@gmail.com",
+      "age": "33",
+      "userName": "",
+      "password": "",
+      "id": 6
+    }
+  ],
+  "admin": [
+    {
+      "name": "First admin",
+      "userName": "ITIAdmin",
+      "password": "3iti30admin"
+    }
+  ],
+  "security": [
+    {
+      "name": "First security",
+      "userName": "ITISecurity",
+      "password": "ss3ee4ss"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "userName": "alyaN6NZ8XC",
+      "employeeID": "alyaN6NZ8XC",
+      "day": "2023-01-25",
+      "time": "10:32:23 PM",
+      "leave": "10:32:28 PM",
+      "attendace_state": "absent"
+    },
+    {
+      "id": 2,
+      "userName": "maraA!OW3MN",
+      "employeeID": "maraA!OW3MN",
+      "day": "2023-01-25",
+      "time": "10:34:02 PM",
+      "leave": "10:34:04 PM",
+      "attendace_state": "absent"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "emailjs-com": "^3.2.0",
+    "json-server": "^0.17.1"
+  }
+}

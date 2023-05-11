@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Page reports</title>
+    <script src="../JQ/jquery-3.1.1.js"></script>
+    <script src="../JS/employeeReport.js"></script>
+    <link href="../CSS/bootstrap.css" rel="stylesheet" />
+    <link href="../CSS/employeeReports.css" rel="stylesheet">
+<style>
+    #startInput,#endInput{
+       margin-left: 44%; 
+    }
+    #startInput:hover{
+       margin-left: 36%; 
+       background-color: rgba(109, 153, 140, 0.279);
+    }
+    #endInput:hover{
+       margin-left: 36%; 
+       background-color: rgba(109, 153, 140, 0.279);
+    }
+
+</style>
+</head>
+<body>
+    
+  
+    <div class=" py-4 my-4 mx-5  text-start  h2 text-info" >Welcome..!  <div id="displayName" class="text-info fst-italic fs-2 mx-5"></div> </div>
+    <div id="buttons" class="row justify-content-center text-center ">
+       <button id="daily" type="button" class="col-4 col-md-2 btn btn-info px-4 mx-3  text-light ">Daily report</button>
+       <button id="month" type="button" class="col-4  d-md-block col-md-2 btn btn-info px-3 mx-3 text-light">Monthly report </button>
+    </div>
+    
+    <div id="dateInput" class="justify-content-center"><input type="date" id="calender" ></div>
+    <div class="my-3"><input type="date" id="startInput"  ></div>
+    <div  ><input type="date" id="endInput" ></div>
+   
+    <table id="table" class="col-6 col-md-10 text-center">
+        <thead id="thead">
+            <tr>
+                <th id="name">firstName</th>
+                <th id="id">lasstName</th>
+                <th id="user">Time of arrival</th>
+                <th >Time to go</th>
+                <th >late</th>
+                <th id="go">Absent</th>
+
+            </tr>
+        </thead>
+        <tbody id="tbody" class="col-6 col-md-10  text-center"></tbody>
+    </table>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+</body>
+</html>

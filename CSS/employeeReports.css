@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+#dateInput{
+    margin: 10px auto;
+    text-align: center;
+}
+input[type="date"]{
+    background-color: #96c1ed;
+    padding: 5px;
+    /* font-family: "Roboto Mono",monospace; */
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+/* ::-webkit-calendar-picker-indicator{
+    color: rgb(51, 153, 56);
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+} */
+
+/* div {
+    color: var(--bs-green);
+  } */
+table{
+    
+    margin: 20px auto;
+    border: 2px solid rgb(203, 203, 203);
+    font-family: "Roboto Mono",monospace;
+}
+th{
+    background-color: rgb(58, 206, 240);
+    color: white;
+    font-size: 18px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px ;
+}
+td{
+    border: 1px solid rgb(125, 118, 118);
+    padding: 7px;
+    text-align: center;
+
+}

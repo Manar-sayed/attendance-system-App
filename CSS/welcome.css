@@ -1,0 +1,45 @@
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+#Welcome{
+    height: 100vh;
+    font-family: 'Trebuchet MS';
+    background-color: rgba(242, 255, 255, 0.265);
+   
+}
+h1{
+    font-family: 'Times New Roman';
+}
+p{
+    color: rgb(166, 167, 167);
+    line-height: 2;
+    font-style: italic;
+    padding: 30px;
+}
+#welcomTxT{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+photo{ 
+    height: 100%;
+    background: url(https://i.pinimg.com/564x/f9/70/e2/f970e25ef91a0c8a5109d9fb6eaa4a80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20% 0 0 20%;
+}
+input{
+    color: antiquewhite;
+    font-size: 18px;
+    background: -webkit-linear-gradient(left, #387697, #16b9ff);
+    border: none;
+    border-radius:10px;
+    height: 50px;
+   
+}
+input:hover{
+    background: -webkit-linear-gradient(right, #387697, #16b9ff);
+    transition: all 0.4s ease;
+
+}
